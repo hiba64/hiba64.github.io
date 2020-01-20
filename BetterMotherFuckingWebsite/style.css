@@ -10,3 +10,15 @@ body {
 h1,h2,h3 {
     line-height: 1.2;
 }
+button
+{position: relative;
+	display: block;
+	margin: auto;
+
+	border-radius: 8px;
+	padding: 10px 8px;
+background-color: #9FA8DA;
+color:#1A237E;
+font-size: 16;
+
+}
