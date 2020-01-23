@@ -1,0 +1,163 @@
+html
+{background-color:#fefefe}
+body
+{font-family:Open Sans;
+	color:#454545;
+	font-size:16px;
+	margin:2em auto;
+	max-width:800px;
+	padding:1em;
+	line-height:1.4;
+	text-align:justify}
+
+ p.or
+  {margin-top:-1em}
+ span.ap
+ {color:#730000}
+ span.am 
+ {color:#c0392b;
+ 	text-decoration:underline ;}
+ 	a
+ 	{color:#07a}
+ 	small{font-size:.4em}
+ 	span.ss
+ 	{color:#00e;
+ 		cursor:not-allowed;}
+ 		span.cv
+ 		{cursor:not-allowed;
+ 			color:#551a8b;}
+ 			 
+
+
+	a:visited 
+  {color:#ac5a82}
+
+	.visited {
+color: #941352;}
+	span.maroon
+   { color: #85144b;;}
+	ul li 
+	img{height:1em}
+p.ppr
+{font-family: monospace;
+	font-size:.9em}
+	span.noir
+	{color:#444;font-weight:700}
+	span.noir:before
+	{content:"";
+	display:inline-block;
+	width:1em;height:1em;
+	margin-left:.2em;
+	margin-right:.2em;
+	background-color:#444}
+	span.noir2
+	{color:#454545;font-weight:700}
+	span.noir2:before{content:"";
+	display:inline-block;width:1em;
+	height:1em;margin-left:.2em;
+	margin-right:.2em;
+	background-color:#454545}
+	div.position div.posimg
+	{float:left;
+		width:40%;
+overflow:hidden;  /* laisser une espace entre image et ecriture */
+margin-right:1em;}
+ div.position div.posimg
+ img{width:100%}
+  p.caption
+   {font-size:.7em} /* taille du texte */
+    div.position div.ecri
+   {float:left;width:55%} 
+  div.position div.ecri   p:first-child  
+   {margin-top:0}  /*l'ecriture commence des le debut de l'image */   
+  div.position:after
+   	{display:block;content:"";clear:both} /* nouvelle paragraphe */
+
+   	blockquote
+   	{color:#456;
+   		margin-left:0;margin-top:2em;
+   		margin-bottom:2em;}
+   	blockquote span
+   	{float:left;margin-left:1rem;padding-top:1rem}
+
+   	blockquote:before
+   	{font-family:Times New Roman,Times,Arial;
+   		color:#666;
+   		content:open-quote;
+   		font-size:2.2em;
+   		font-weight:600;float:left;
+   		margin-top:0;margin-right:.2rem;width:1.2rem}
+   	blockquote author{display:block;clear:both;font-size:.6em;margin-left:2.4rem;font-style:oblique}
+   	blockquote author:before{content:"- ";margin-right:1em}
+   	blockquote:after{
+   			content:"";display:block;clear:both}
+   			/* @media screen and (max-width:500px){body{text-align:left} */
+   			span.cit
+   			{vertical-align:top;font-size:.7em;padding-left:.3em}
+   			a.kopimi , img.kopimi
+   			{display:block;margin-left:auto;
+   				margin-right:auto;
+   				height: 2em;}
+
+
+html.inverted div#contrast,html.inverted div#invmode
+{color:#fff;
+  background-color:#000;}
+  
+div#contrast, div#invmode {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  font-size: .8em;
+  text-decoration: underline;
+  }
+div#contrast {
+  color: #000;
+  top: 10px;
+}
+
+html.contrast body 
+{
+    color: #050505;
+}
+html.contrast span.am
+{color:#800}
+html.contrast 
+a{color:#0051c9}
+html.contrast 
+a:visited
+{color:#7d013e}
+html.contrast 
+blockquote{
+  color:#11151a}
+html.contrast blockquote:before
+{color:#262626} 
+html.contrast span.ap
+{color:#4d0000}
+div#invmode {
+  color: #fff;
+  background-color: #000;
+  top: 34px;
+  padding: 2px 5px;
+}
+html.inverted
+{background-color:#010101} 
+html.inverted body{color:#bababa}
+html.inverted blockquote{color:#dad0c7}
+html.inverted blockquote:before{color:#bfbfbf}
+html.inverted a{color:#07a}
+html.inverted a:visited{color:#ac5a82}
+html.inverted span.am{color:#c0392b}
+html.inverted span.ap{color:#8a0000}
+html.inverted.contrast{background-color:#010101}
+html.inverted.contrast body{color:#fff}
+html.inverted.contrast div#contrast,html.inverted.contrast div#invmode
+{color:#fff;background-color:#000}
+html.inverted.contrast blockquote{color:#f8f6f5}
+html.inverted.contrast blockquote:before{color:#e5e5e5}
+html.inverted.contrast a{color:#07a}
+html.inverted.contrast a:visited{color:#ac5a82}
+html.inverted.contrast span.am
+{color:#c0392b}
+html.inverted.contrast span.ap
+{color:#a10000}
