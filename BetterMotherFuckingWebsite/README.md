@@ -1,9 +1,9 @@
 # BetterMotherFuckingWebsite
 
-Apres avoir créer cette page en premier lieu (partie 1) 
+Apres avoir créer cette page en premier lieu (partie 1 du mercredi) 
 
 
-1/ j'ai ajouté une page javascript 
+1/ j'ai ajouté un fichier javascript 
 
 
 2/j'a crée une pop-up de redirection vers un lien youtube
